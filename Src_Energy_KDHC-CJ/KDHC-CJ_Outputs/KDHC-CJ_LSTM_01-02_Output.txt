@@ -1,0 +1,19 @@
+## 2차 YD, Dist 제거
+df_raw_temp = df_raw_temp[['MONTH', 'code_day_of_the_week', 'rest_YN'
+                           , 'HOUR'
+                           , 'temp_outdoor', 'temp_dew_point', 'temp_ground'
+                           , 'humidity'
+                           , 'rainfall', 'snowfall', 'snowfall_3hr'
+                           , 'wind_speed', 'wind_direction'
+                           , 'pressure_vapor', 'pressure_area', 'pressure_sea'
+                           , 'sunshine'
+                           , 'solar_radiation'
+                           , 'cloud_total', 'cloud_midlow', 'visual_range'
+                           , 'CHEONGJU']]
+						   
+Runtime : 0m 35.5s
+
+mean_absolute_percentage_error :  0.40173671354370233
+mean_absolute_error :  28.930383312942443
+mean_squared_error :  1657.0194818083305
+r2_score :  0.369406320367371
