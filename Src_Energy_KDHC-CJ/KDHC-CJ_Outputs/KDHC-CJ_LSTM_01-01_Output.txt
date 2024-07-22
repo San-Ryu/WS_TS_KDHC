@@ -1,0 +1,18 @@
+df_raw_temp = df_raw_temp[['YEAR', 'MONTH', 'DAY', 'code_day_of_the_week', 'dist_from_holiday', 'rest_YN'
+                           , 'HOUR'
+                           , 'temp_outdoor', 'temp_dew_point', 'temp_ground'
+                           , 'humidity'
+                           , 'rainfall', 'snowfall', 'snowfall_3hr'
+                           , 'wind_speed', 'wind_direction'
+                           , 'pressure_vapor', 'pressure_area', 'pressure_sea'
+                           , 'sunshine'
+                           , 'solar_radiation'
+                           , 'cloud_total', 'cloud_midlow', 'visual_range'
+                           , 'CHEONGJU']]
+
+Runtime : 1m 58.5s
+
+mean_absolute_percentage_error :  0.31980529860394996
+mean_absolute_error :  19.728878238805876
+mean_squared_error :  733.420083659921
+r2_score :  0.7208903852072652
